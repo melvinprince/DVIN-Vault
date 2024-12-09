@@ -33,9 +33,9 @@ export default defineConfig({
   resolve: {
     alias: [
       {
-        find: "declarations",
+        find: "components",
         replacement: fileURLToPath(
-          new URL("../declarations", import.meta.url)
+          new URL("../components", import.meta.url)
         ),
       },
     ],
